@@ -1,10 +1,19 @@
+p{
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #f5a623;
+}
+
 body,
 div,
 ul,
 li,
 p,
-h1,
-h2,
 h3,
 h4,
 h5,
@@ -26,7 +35,6 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
   line-height: 48px;
   display: inline;
 }
@@ -34,7 +42,6 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999;
   line-height: 29px;
   padding: 10px;
 }
@@ -110,6 +117,7 @@ a {
 
 .orange-text {
   color: #f5ae23;
+  font-style: italic;
 }
 
 .white-text {
